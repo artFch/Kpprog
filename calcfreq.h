@@ -3,16 +3,5 @@
 
 #include <stdio.h>
 
-typedef struct {
-    char* s;
-} word;
-
-typedef struct {
-    word* str;
-    int* nums;
-    int size;
-    int size_n;
-    int capacity;
-} dictionary;
 
 #endif

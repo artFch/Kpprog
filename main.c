@@ -50,11 +50,3 @@ int sort_file(const char* input_file, const char* output_file, int sort_type)
         return -1;
     }
 
-int main(int argc, char *argv[])
-{
-
-    if (argv[1] == NULL || argv[2] == NULL || argv[3] == NULL || argv[4] == NULL)
-    {
-        usage();
-        return 1;
-    }
